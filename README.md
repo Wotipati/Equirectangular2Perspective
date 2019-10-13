@@ -14,10 +14,11 @@ This repository is a set of code to convert a equirectangular panorama image int
     $ cmake ..
     $ make
     $ ./Equirectangular2Perspecective
-
+    ```
 
 ### Result
 #### Input: panorama image
-
+![inputImage](https://user-images.githubusercontent.com/26996041/66710246-71740780-edaf-11e9-9df3-e81fc70d22eb.jpg)
 
 #### Output: perspective image
+<img width="1079" alt="スクリーンショット 2019-10-13 11 46 03" src="https://user-images.githubusercontent.com/26996041/66710253-9799a780-edaf-11e9-994b-c88f5dc3091a.png">

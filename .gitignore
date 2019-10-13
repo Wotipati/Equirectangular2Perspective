@@ -14,5 +14,3 @@ __pycache__
 *.MP4
 .ipynb_checkpoints/*
 common.h
-*.jpg
-*.png

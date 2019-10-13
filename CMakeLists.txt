@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
-project(Equirectangular2Perspecective)
+project(Equirectangular2Perspective)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -12,6 +12,6 @@ endif()
 
 find_package(OpenCV REQUIRED)
 
-add_executable(Equirectangular2Perspecective main.cpp equirec2perspec.cpp equirec2perspec.h)
+add_executable(Equirectangular2Perspective main.cpp equirec2perspec.cpp equirec2perspec.h)
 
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})

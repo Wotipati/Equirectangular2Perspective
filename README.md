@@ -1,4 +1,4 @@
-# Equirectangular2Perspecective
+# Equirectangular2Perspective
 
 This repository is a set of code to convert a equirectangular panorama image into a normal perspective view.
 
@@ -13,7 +13,7 @@ This repository is a set of code to convert a equirectangular panorama image int
     $ mkdir build && cd build
     $ cmake ..
     $ make
-    $ ./Equirectangular2Perspecective
+    $ ./Equirectangular2Perspective
     ```
 
 ### Result

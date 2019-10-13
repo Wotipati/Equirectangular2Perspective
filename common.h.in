@@ -1,0 +1,6 @@
+#ifndef _COMMON_H_
+#define _COMMON_H_
+
+static const char *DATA_DIRECTORY = "@TARGET_DIR@/data/";
+
+#endif  // _COMMON_H_

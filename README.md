@@ -1,6 +1,6 @@
 # Equirectangular2Perspective
 
-This repository is a set of code to convert a equirectangular panorama image into a normal perspective view.
+This repository is a set of codes to convert a equirectangular panorama image into a normal perspective view.
 
 ### Requirement
 - OpenCV 3.4
@@ -14,6 +14,27 @@ This repository is a set of code to convert a equirectangular panorama image int
     $ cmake ..
     $ make
     $ ./Equirectangular2Perspective
+    ```
+
+3. Parameters:  
+    ```c++
+    // Output image dimension
+    const int height = 720;
+    const int width = 1080;
+
+    // z-axis angle (0: forward, 180: backword)
+    float theta = 180.0f;
+
+    // y-axis angle (>0: upper, <0: lower)
+    float phi = 0.0f;
+
+    // FOV of the output perspective image
+    float FOV = 120.0f;
+
+    Equirec2Perspec equiParser;
+    equiParser.setParams(inputImage, FOV, height, width);
+
+    equiParser.equirectangular2perspective(inputImage, outputImage, theta, phi);
     ```
 
 ### Result
